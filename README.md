@@ -12,10 +12,10 @@ Ready-to-go template to create awesome websites using Tailwind on top of Snowpac
 
 ```sh
 # Bootstrap the template into a new folder called `my-app`
-npx create-snowpack-app my-app --template snowpack-template-tailwind
+npx create-snowpack-app snowpack-template-tailwind --template snowpack-template-tailwind
 
 # Enable Prettier on git-commit
-cd my-app
+cd snowpack-template-tailwind
 npm run install:husky
 
 # Start the development server
